@@ -45,8 +45,8 @@ const blockedDomain = [".gov", ".edu"];
 
 const timestamp = Date.now();
 const timestampString = timestamp.toString().substring(0, 10);
-const currentDate = new Date();
-const targetDate = new Date('2024-03-30');
+const currentDate = new Date(2024-06-13);
+const targetDate = new Date('2030-03-30');
 
 const PREFACE = "PRI * HTTP/2.0\r\n\r\nSM\r\n\r\n";
 const reqmethod = process.argv[2];
